@@ -9,7 +9,7 @@ import signal
 import sys
 
 # === CONFIGURATION ===
-TELNET_HOST = 'localhost'  # or IP of the device running the Telnet server
+TELNET_HOST = '127.0.0.1'  # or IP of the device running the Telnet server
 TELNET_PORT = 2323           # default Telnet port; change if needed
 CHANNEL_NAMES = ['acc_x', 'acc_y', 'acc_z', 'mic']
 MIN_SAMPLES = 100
